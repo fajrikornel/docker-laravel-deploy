@@ -1,5 +1,9 @@
 export ROOT_DIR=$(cd `dirname "$0"` && pwd)
-export DOCKER_NETWORK=test-laravel
+export DOCKER_NETWORK=laravel_network
+export LARAVEL_CONTAINER=laravel_container
+export LARAVEL_PORT=1234
+export MYSQL_CONTAINER=mysql_container
+export MYSQL_PORT=2345
 
 echo "Creating docker network"
 docker network create $DOCKER_NETWORK

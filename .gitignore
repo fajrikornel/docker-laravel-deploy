@@ -1,1 +1,3 @@
 /laravel-container/dummydashboard
+/laravel-container/.env.laravel
+/mysql-container/.env.mysql
